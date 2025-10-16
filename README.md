@@ -15,7 +15,7 @@ module SHADER
   open C
   open C_stdlib
 
-    let vertex_shader =
+  let vertex_shader =
     prog begin
     (#!) version v3_3_0 core >>=+ fun _ ->
     let+ pos = In.ref__vec3 ~layout__location:0 () in
