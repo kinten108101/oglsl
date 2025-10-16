@@ -1,6 +1,6 @@
 # Oglsl
 
-Oglsl is a set of module signatures providing overloadable functions and operators and abstract types for writing GLSL [^wiki-glsl] in OCaml. In other words, it is a tagless-final [^jfp] eDSL - abstract algebra of GLSL embedded in OCaml.
+Oglsl is a set of OCaml module signatures providing overloadable functions and operators and abstract types for writing GLSL [^wiki-glsl] in OCaml. In other words, it is a tagless-final [^jfp] eDSL - abstract algebra of GLSL embedded in OCaml.
 
 Oglsl isn't useful on its own. (TBA)
 
