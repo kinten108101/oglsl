@@ -20,7 +20,7 @@
  (name oglsl)
  (synopsis "Embedding GLSL in OCaml")
  (description "Oglsl is a set of module signatures providing overloadable functions and operators and abstract types for writing GLSL in OCaml. In other words, it is a tagless-final eDSL - abstract algebra of GLSL embedded in OCaml.")
- (depends ocaml)
+ (depends (ocaml (>= 5.2.0)))
  (tags
   (tagless-final opengl glsl edsl)))
 
