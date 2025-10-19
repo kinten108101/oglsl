@@ -4,7 +4,13 @@ Oglsl is a set of module signatures providing overloadable functions and operato
 
 Oglsl isn't useful on its own. (TBA)
 
-## Example
+## Installation
+
+```
+opam install oglsl
+```
+
+## Usage
 
 An [introduction to Oglsl][tutorial] is available at the wiki. For a use case of Oglsl in one short snippet, here it is:
 
@@ -36,6 +42,10 @@ Let's dissect what's going on:
 
 - TBA
 - TBA
+
+## Acknowledgement
+
+TBA
 
 [^wiki-glsl]: https://en.wikipedia.org/wiki/OpenGL_Shading_Language
 
