@@ -30,7 +30,7 @@ module SHADER
     end
 end
 ```
-which translates to (assuming we provide an interpreter implementation):
+which can be translated to (assuming we provide an interpreter implementation)
 ```glsl
 #version 330 core
 layout(location = 0) in vec3 pos;
@@ -38,6 +38,8 @@ void main() {
   gl_Position = vec4(pos, 1.0);
 }
 ```
+or it can be used directly (example TBA)
+
 Let's dissect what's going on:
 
 - TBA
