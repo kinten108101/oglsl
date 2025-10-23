@@ -12,7 +12,7 @@ opam install oglsl
 
 ## Usage
 
-An [introduction to Oglsl][tutorial] is available at the wiki. For a use case of Oglsl in one short snippet, here it is:
+An [introduction to Oglsl](https://github.com/kinten108101/oglsl/wiki/Tutorial) is available at the wiki. For a use case of Oglsl in one short snippet, here it is:
 
 ```ocaml
 module SHADER
